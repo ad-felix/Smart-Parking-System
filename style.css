@@ -1,0 +1,109 @@
+/* .main-div{
+  background-image: url('bg-img.jpg');
+  background-position: center;
+  background-size: cover;
+  backface-visibility: hidden;
+
+} */
+
+.topnav {
+  background-color: #333;
+  height: 5%;
+  width: 100%;
+  align-content: space-between;
+  padding: 0;
+  margin: 0;
+  border: none;
+  min-height: 5vh;
+  z-index: 200;
+  text-align: center;
+}
+
+/* .topnav{
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+} */
+.topnav h1{
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+.main-div{
+  /* background-color: blue; */
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+}
+
+.form1{
+  height: inherit;
+  min-width: 50%;
+  /* object-fit: cover; */
+}
+.form2{
+  height: inherit;
+  width: 50%;
+  min-width: 50%;
+  background-color: #FBBC05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form1 #bg-img{
+  background-size: cover;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur(2px);
+}
+#formbox{
+  padding:10px 0 5px 0;
+  border-bottom:3px solid red;
+  background:#2E2E2E;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Abel', sans-serif;
+}
+
+#formbox  p{
+text-align:Center;
+}
+
+#formbox #signup{
+  color: white;
+}
+
+.box{
+border-top:none;
+border-left:none;
+border-right:none;
+border-bottom:2px solid #6E6E6E;
+width:100%;
+background:#2E2E2E;
+outline: none;
+color:white;
+font-family:'Abel', sans-serif;
+font-size:100%;
+}
+#button{
+border:none;
+width:auto;
+padding:5px;
+font-family: 'Alegreya Sans', sans-serif;
+color:white;
+background:#FA5858;
+margin:0 0 0 55px;
+}
