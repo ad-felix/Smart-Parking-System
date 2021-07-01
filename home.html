@@ -4,6 +4,7 @@
   <title>Smart Parking System</title>
   <link rel="icon" href="placeholder.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
 
   <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
@@ -12,33 +13,55 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <!-- Fonts -->
 
+
 </head>
 
 <body>
-  <div class="topnav">
-    <h1>Welcome to Smart Parking System</h1>
+  <div class="header">
+    <header class="inner">
+      <h1>Welcome to Smart Parking System</h1>
+    </header>
   </div>
 
   <div class="main-div">
     <div class="form1">
-      <img src="img2.jpg" alt="Image" id="bg-img">
+      <img src="img4.jpg" alt="Image" id="bg-img">
     </div>
 
 <!-- The Main Form Starts Here -->
     <div class="form2">
-      <div id="formbox">
+      <!-- <div id="formbox">
       <form>
         <p><input type="text" class="box" value="ENTER USERNAME" id="username" required/></p>
         <p><input type="password" class="box" value="ENTER PASSWORD" id="pass" required /></p>
         <p style="text-align:left"><input type="submit" id="button" /></p>
         <p id='signup'>New User?<a href="">Register Here!</a></p>
       </form>
-      </div>
+      </div> -->
+      <div class="login-container text-c animated flipInX">
+              <div>
+                  <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
+              </div>
+              <div class="container-content">
+                  <h3 class="text-whitesmoke"><pre>    Smart Parking System   </pre></h3>
+                  <form class="margin-t">
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Email" required="">
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Password" required="">
+                      </div>
+                      <button type="submit" class="form-button button-l margin-b">Sign In</button>
+
+                      <a class="text-darkyellow" href="#"><small>Forgot your password?</small></a>
+                      <p class="text-whitesmoke text-center"><small>Do not have an account?</small></p>
+                      <a class="text-darkyellow" href="#"><small>Sign Up</small></a>
+                  </form>
+              </div>
     </div>
 <!-- The Main Form Ends here -->
 
-  </div>
-
+  </body>
 
 </body>
 </html>
